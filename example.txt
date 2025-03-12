@@ -1,1 +1,1 @@
-.\mingw32\bin\g++.exe -O2 "source.cpp" -o "game.exe" -Iraylib/include -Lraylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm
+.\zig\zig.exe c++ -O .\cache\example.cpp -o "game.exe" -Iraylib/include -Lraylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm
